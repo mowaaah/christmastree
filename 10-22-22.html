@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Tree</title>
+</head>
+<body style="background-color: #F6F3E9;">
+    <!-- <button id="stop_btn" onclick="stop_interval();">Stop</button>
+    <p id="for_interval_sample">Hi!</p> -->
+    <center>
+    <p id="pasko" style="font-size: 14pt;">
+        ⭐
+        <script>
+            let rows = 20;
+            
+            for (let i = 0; i <= rows; i++) {
+                for (let k = 0; k < i; k++) {
+                    document.write("&nbsp;");
+                    document.write("*");
+                }
+                
+                document.write("<br>");
+            }
+        </script> 
+    </p>
+    <div id="pasko1" style="font-size: 35pt;">MERRY CHRISTMAS!</div>
+    <br>
+        <p>1 sec = 1000 ms</p>
+    <br>
+        <input type="number" id="twinkle">
+    <br><br>
+    <button id="twinkle_btn" onclick="paskoTwinkle();">Let's light up the tree!</button>
+    <button id="btn_stop2" onclick="stop2();">Turn off the Tree</button>
+
+    </center>
+</body>
+<script src="sparkling-tree.js"></script>
+</html>
